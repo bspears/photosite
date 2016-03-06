@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  section.photos.grid.clearfix
+    div.col#column1
+    div.col#column2
+    div.col#column3  
+  section.slider.grid
+    div.photoSlide.grid-full
+      div.image
+      div.sliderNav.grid-full
+        div.closeButton#closeButton 
+          p Close
+
+  script(src="//code.jquery.com/jquery-1.12.0.min.js")          
+  script(src="js/photosite.min.js")            

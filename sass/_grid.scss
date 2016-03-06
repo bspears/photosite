@@ -1,0 +1,19 @@
+.grid {
+	float: left;
+	box-sizing: border-box;
+	.grid-full{
+		width:100%;
+	}
+	.grid-1{
+		width:25%;
+	}
+	.grid-2{
+		width:40%;
+	}
+	.grid-3{
+		width: 60%;
+	}
+	.grid-4{
+		width: 80%;
+	}
+}
