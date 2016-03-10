@@ -48,3 +48,8 @@ $('#home').on('click', function(e){
 	}
 });
 
+if(window.location.pathname !== "/"){
+	$('#portraits').hide();
+	$('#other').hide();
+}
+
