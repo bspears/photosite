@@ -58,27 +58,30 @@ table {
   display: block;
   clear: both; }
 
-.grid {
+.custom-grid {
   float: left;
   box-sizing: border-box; }
-  .grid .grid-full {
+  .custom-grid .grid-full {
     width: 100%; }
-  .grid .grid-1 {
+  .custom-grid .grid-1 {
     width: 25%; }
-  .grid .grid-2 {
+  .custom-grid .grid-2 {
     width: 40%; }
-  .grid .grid-3 {
+  .custom-grid .grid-3 {
     width: 60%; }
-  .grid .grid-4 {
+  .custom-grid .grid-4 {
     width: 80%; }
 
-.baseContainer, .header, .thumbnail, .col {
+.baseContainer, .header {
   display: block;
   float: left;
   box-sizing: border-box; }
 
 main {
   padding: 250px 0 0 0; }
+
+.grid {
+  width: 100%; }
 
 .nav ul li {
   margin: .3em 0; }
@@ -96,17 +99,9 @@ main {
     top: 10px;
     right: 5px; }
 
-.thumbnail {
-  padding: .5% .25%;
-  width: 100%; }
-
 .aboutImg {
   width: 30%;
   float: left; }
-
-.col {
-  width: 100%;
-  padding: 0 .25% .5% .25%; }
 
 .slider {
   z-index: 2;
@@ -115,7 +110,7 @@ main {
   margin-top: -7%; }
   .slider .photoSlide {
     position: relative;
-    padding: 0 5%; }
+    padding: 5% 2%; }
   .slider .closeButton {
     text-align: center;
     line-height: 40px;
@@ -132,11 +127,18 @@ main {
   text-align: right; }
 
 @media (min-width: 600px) {
-  .thumbnail {
-    width: 100%;
-    position: relative; }
-  .col {
+  .grid-sizer,
+  .grid-item {
     width: 33.33%; }
+  .grid-item {
+    float: left;
+    box-sizing: border-box; }
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .grid-item img {
+    max-width: 100%; }
   .header {
     padding: 2em 0 0 1em;
     width: 150px;
@@ -167,4 +169,6 @@ main {
     margin: 0 2em 2em 0; }
   .aboutText {
     width: 65%;
-    margin-bottom: 1em; } }
+    margin-bottom: 1em; }
+  .thumbnail {
+    padding: 2px; } }

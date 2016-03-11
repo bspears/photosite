@@ -2,10 +2,17 @@ extends layout
 
 block content
   section.photos.grid.clearfix
-    div.col#column1
-    div.col#column2
-    div.col#column3  
-  section.slider.grid
+    div.grid-sizer
+    img(src="images/cam2.jpg").grid-item.thumbnail.portrait
+    img(src="images/pasta-girl.jpg").grid-item.thumbnail.portrait
+    img(src="images/sam.jpg").grid-item.thumbnail.other
+    img(src="images/michelle.jpg").grid-item.thumbnail.portrait
+    img(src="images/view-from-the-top.jpg").grid-item.thumbnail.other
+    img(src="images/street-musician.jpg").grid-item.thumbnail.portrait
+    img(src="images/boats.jpg").grid-item.thumbnail.other
+    img(src="images/balloon-man.jpg").grid-item.thumbnail.portrait
+    img(src="images/fish-man.jpg").grid-item.thumbnail.portrait
+  section.slider.custom-grid
     div.photoSlide.grid-full
       div.image
       div.sliderNav.grid-full
@@ -13,4 +20,6 @@ block content
           p Close
 
   script(src="//code.jquery.com/jquery-1.12.0.min.js")          
+  script(src="javascripts/masonry.js")
+  script(src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js")  
   script(src="js/photosite.min.js")            
