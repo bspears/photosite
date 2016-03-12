@@ -74,6 +74,18 @@ main {
 	}
 }
 
+.heading {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.textChunk {
+  padding: .5em;
+  h2 {
+    margin-bottom: .5em;
+  }
+}
+
 .aboutText {
   padding: 0 1em;
   margin: .5em;
@@ -142,7 +154,6 @@ main {
 
 	.heading {
 		font-size: 3.2em;
-		margin-bottom: 1em;
 	}
 
   .textChunk {
