@@ -5,23 +5,23 @@
 }
 
 main {
-	padding:250px 0 0 0;
+	padding:450px 0 0 0;
 }
 
 .grid {
   width: 100%;
 }
 
-.nav {
-	ul {
-		li {
-			margin: .3em 0;
-		}
-	}
+.title {
+  font-size: 3.6em;
+}
+
+.subTitle {
+  font-size: 3em;
 }
 
 .header {
-	padding: 1em 0 0 1em;
+	padding: 1em 0 1em 1em;
 	@extend .baseContainer;
 	width: 100%;
 	position: absolute;
@@ -29,18 +29,17 @@ main {
 	left: 0;
 	.nav {
 		text-align: right;
-		font-size: 1em;
+		font-size: 3.2em;
 		position: absolute;
-		top: 10px;
+		top: 5px;
 		right: 5px;
+    ul {
+      li {
+        margin: .7em 0;
+      }
+    }
 	}
 }
-
-// .grid-item {
-// 	@extend .baseContainer;
-// 	padding: .5% .25%;
-// 	width: 100%;
-// }
 
 .aboutImg {
 	width:30%;
@@ -101,10 +100,6 @@ main {
     max-width: 100%;
   }
 
-	// .col {
-	// 	width: 100%;
-	// }
-
 	.header {
 		padding: 2em 0 0 1em;
 		width: 150px;
@@ -118,6 +113,11 @@ main {
 			position: absolute;
 			top: 200px;
 			left: 20px;
+      ul {
+        li {
+          margin: .3em 0;
+        }
+      }
 		}
 	}
 
@@ -129,6 +129,10 @@ main {
 	.title {
 		font-size: 1.6em;
 	}
+
+  .subTitle {
+    font-size: 1em;
+  }
 
 	.heading {
 		font-size: 3.2em;
@@ -156,16 +160,6 @@ main {
   .thumbnail {
     padding: 2px;
   }
-
-
-  // .photos {
-  //   display: flex;
-  //   justify-content: flex-start;
-  //   align-content: flex-start;
-  //   align-items: flex-start;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  // }
 }
 
 
