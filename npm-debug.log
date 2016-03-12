@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'gulp' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.1
+4 warn package.json assert@1.3.0 assert is also the name of a node core module.
+5 warn package.json asap@1.0.0 No repository field.
+6 warn package.json buffer@4.5.0 buffer is also the name of a node core module.
+7 warn package.json callsite@1.0.0 No repository field.
+8 warn package.json css-parse@1.0.4 No repository field.
+9 warn package.json css-stringify@1.0.5 No repository field.
+10 warn package.json css@1.0.8 No repository field.
+11 warn package.json events@1.1.0 events is also the name of a node core module.
+12 warn package.json has-binary@0.1.6 No repository field.
+13 warn package.json has-binary-data@0.1.3 No repository field.
+14 warn package.json indexof@0.0.1 No repository field.
+15 warn package.json object-component@0.0.3 No repository field.
+16 warn package.json parseqs@0.0.2 No repository field.
+17 warn package.json parsejson@0.0.1 No repository field.
+18 warn package.json parseuri@0.0.2 No repository field.
+19 warn package.json punycode@1.4.0 punycode is also the name of a node core module.
+20 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+21 warn package.json sass@0.5.0 No repository field.
+22 warn package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+23 warn package.json url@0.11.0 url is also the name of a node core module.
+24 warn package.json util@0.10.3 util is also the name of a node core module.
+25 silly cache add args [ 'gulp', null ]
+26 verbose cache add spec gulp
+27 silly cache add parsed spec { raw: 'gulp',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'gulp',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: '*',
+27 silly cache add   type: 'range' }
+28 verbose addNamed gulp@*
+29 silly addNamed semver.valid null
+30 silly addNamed semver.validRange *
+31 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+32 silly mapToRegistry name gulp
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/gulp
+36 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/gulp
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 6:49:09 PM
+40 verbose request id b410e1f35b4101bf
+41 verbose etag "7QCC999WX4TQXQA2NJNPKSMZ"
+42 http request GET https://registry.npmjs.org/gulp
+43 http 200 https://registry.npmjs.org/gulp
+44 silly get cb [ 200,
+44 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 silly get     etag: '"6DHUJFGAARE09IK4WH3NUM9ZT"',
+44 silly get     'content-type': 'application/json',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     'content-length': '113083',
+44 silly get     'accept-ranges': 'bytes',
+44 silly get     date: 'Sat, 12 Mar 2016 02:49:09 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     age: '26',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-sjc3122-SJC',
+44 silly get     'x-cache': 'HIT',
+44 silly get     'x-cache-hits': '1',
+44 silly get     'x-timer': 'S1457750949.570009,VS0,VE0',
+44 silly get     vary: 'Accept' } ]
+45 verbose get saving gulp to /Users/benspears/.npm/registry.npmjs.org/gulp/.cache.json
+46 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+47 silly addNameRange versions [ 'gulp',
+47 silly addNameRange   [ '0.0.1',
+47 silly addNameRange     '0.0.2',
+47 silly addNameRange     '0.0.3',
+47 silly addNameRange     '0.0.4',
+47 silly addNameRange     '0.0.5',
+47 silly addNameRange     '0.0.7',
+47 silly addNameRange     '0.0.8',
+47 silly addNameRange     '0.0.9',
+47 silly addNameRange     '0.1.0',
+47 silly addNameRange     '0.2.0',
+47 silly addNameRange     '1.0.0',
+47 silly addNameRange     '1.1.0',
+47 silly addNameRange     '1.2.0',
+47 silly addNameRange     '1.2.1',
+47 silly addNameRange     '2.0.0',
+47 silly addNameRange     '2.0.1',
+47 silly addNameRange     '2.1.0',
+47 silly addNameRange     '2.2.0',
+47 silly addNameRange     '2.3.0',
+47 silly addNameRange     '2.4.0',
+47 silly addNameRange     '2.4.1',
+47 silly addNameRange     '2.6.0',
+47 silly addNameRange     '2.6.1',
+47 silly addNameRange     '2.7.0',
+47 silly addNameRange     '3.0.0',
+47 silly addNameRange     '3.1.1',
+47 silly addNameRange     '3.1.2',
+47 silly addNameRange     '3.1.3',
+47 silly addNameRange     '3.1.4',
+47 silly addNameRange     '3.2.0',
+47 silly addNameRange     '3.2.1',
+47 silly addNameRange     '3.2.2',
+47 silly addNameRange     '3.2.3',
+47 silly addNameRange     '3.2.4',
+47 silly addNameRange     '3.2.5',
+47 silly addNameRange     '3.3.0',
+47 silly addNameRange     '3.3.1',
+47 silly addNameRange     '3.3.2',
+47 silly addNameRange     '3.3.4',
+47 silly addNameRange     '3.4.0',
+47 silly addNameRange     '3.5.0',
+47 silly addNameRange     '3.5.1',
+47 silly addNameRange     '3.5.2',
+47 silly addNameRange     '3.5.5',
+47 silly addNameRange     '3.5.6',
+47 silly addNameRange     '3.6.0',
+47 silly addNameRange     '3.6.1',
+47 silly addNameRange     '3.6.2',
+47 silly addNameRange     '3.7.0',
+47 silly addNameRange     '3.8.0',
+47 silly addNameRange     '3.8.1',
+47 silly addNameRange     '3.8.2',
+47 silly addNameRange     '3.8.3',
+47 silly addNameRange     '3.8.4',
+47 silly addNameRange     '3.8.5',
+47 silly addNameRange     '3.8.6',
+47 silly addNameRange     '3.8.7',
+47 silly addNameRange     '3.8.8',
+47 silly addNameRange     '3.8.9',
+47 silly addNameRange     '3.8.10',
+47 silly addNameRange     '3.8.11',
+47 silly addNameRange     '3.9.0',
+47 silly addNameRange     '3.9.1' ] ]
+48 verbose addNamed gulp@3.9.1
+49 silly addNamed semver.valid 3.9.1
+50 silly addNamed semver.validRange 3.9.1
+51 silly cache afterAdd gulp@3.9.1
+52 verbose afterAdd /Users/benspears/.npm/gulp/3.9.1/package/package.json not in flight; writing
+53 verbose afterAdd /Users/benspears/.npm/gulp/3.9.1/package/package.json written
+54 silly install resolved [ { name: 'gulp',
+54 silly install resolved     description: 'The streaming build system',
+54 silly install resolved     version: '3.9.1',
+54 silly install resolved     homepage: 'http://gulpjs.com',
+54 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+54 silly install resolved     author:
+54 silly install resolved      { name: 'Fractal',
+54 silly install resolved        email: 'contact@wearefractal.com',
+54 silly install resolved        url: 'http://wearefractal.com/' },
+54 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+54 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion', 'gulp.1' ],
+54 silly install resolved     bin: { gulp: './bin/gulp.js' },
+54 silly install resolved     man: [ 'gulp.1' ],
+54 silly install resolved     dependencies:
+54 silly install resolved      { archy: '^1.0.0',
+54 silly install resolved        chalk: '^1.0.0',
+54 silly install resolved        deprecated: '^0.0.1',
+54 silly install resolved        'gulp-util': '^3.0.0',
+54 silly install resolved        interpret: '^1.0.0',
+54 silly install resolved        liftoff: '^2.1.0',
+54 silly install resolved        minimist: '^1.1.0',
+54 silly install resolved        orchestrator: '^0.3.0',
+54 silly install resolved        'pretty-hrtime': '^1.0.0',
+54 silly install resolved        semver: '^4.1.0',
+54 silly install resolved        tildify: '^1.0.0',
+54 silly install resolved        v8flags: '^2.0.2',
+54 silly install resolved        'vinyl-fs': '^0.3.0' },
+54 silly install resolved     devDependencies:
+54 silly install resolved      { coveralls: '^2.7.0',
+54 silly install resolved        eslint: '^1.7.3',
+54 silly install resolved        'eslint-config-gulp': '^2.0.0',
+54 silly install resolved        'graceful-fs': '^3.0.0',
+54 silly install resolved        istanbul: '^0.3.0',
+54 silly install resolved        jscs: '^2.3.5',
+54 silly install resolved        'jscs-preset-gulp': '^1.0.0',
+54 silly install resolved        'marked-man': '^0.1.3',
+54 silly install resolved        mkdirp: '^0.5.0',
+54 silly install resolved        mocha: '^2.0.1',
+54 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+54 silly install resolved        q: '^1.0.0',
+54 silly install resolved        rimraf: '^2.2.5',
+54 silly install resolved        should: '^5.0.1' },
+54 silly install resolved     scripts:
+54 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+54 silly install resolved        lint: 'eslint . && jscs *.js bin/ lib/ test/',
+54 silly install resolved        pretest: 'npm run lint',
+54 silly install resolved        test: 'mocha --reporter spec',
+54 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+54 silly install resolved     engines: { node: '>= 0.9' },
+54 silly install resolved     license: 'MIT',
+54 silly install resolved     gitHead: '9c14e3a13a73a32e424f144d62566671b2fcdbed',
+54 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+54 silly install resolved     _id: 'gulp@3.9.1',
+54 silly install resolved     _shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+54 silly install resolved     _from: 'gulp@*',
+54 silly install resolved     _npmVersion: '2.14.14',
+54 silly install resolved     _nodeVersion: '0.10.41',
+54 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+54 silly install resolved     maintainers: [ [Object], [Object] ],
+54 silly install resolved     dist:
+54 silly install resolved      { shasum: '571ce45928dd40af6514fc4011866016c13845b4',
+54 silly install resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz' },
+54 silly install resolved     _npmOperationalInternal:
+54 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+54 silly install resolved        tmp: 'tmp/gulp-3.9.1.tgz_1454957415500_0.15343931876122952' },
+54 silly install resolved     directories: {},
+54 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz',
+54 silly install resolved     readme: 'ERROR: No README data found!' } ]
+55 info install gulp@3.9.1 into /Users/benspears/Desktop/projects/photography/photosite
+56 info installOne gulp@3.9.1
+57 verbose installOne of gulp to /Users/benspears/Desktop/projects/photography/photosite not in flight; installing
+58 warn locking Error: EACCES, open '/Users/benspears/.npm/_locks/gulp-79f6493e7ed1007f.lock'
+58 warn locking     at Error (native)
+58 warn locking  /Users/benspears/.npm/_locks/gulp-79f6493e7ed1007f.lock failed { [Error: EACCES, open '/Users/benspears/.npm/_locks/gulp-79f6493e7ed1007f.lock']
+58 warn locking   errno: -13,
+58 warn locking   code: 'EACCES',
+58 warn locking   path: '/Users/benspears/.npm/_locks/gulp-79f6493e7ed1007f.lock' }
+59 verbose stack Error: Attempt to unlock /Users/benspears/Desktop/projects/photography/photosite/node_modules/gulp, which hasn't been locked
+59 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+59 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:929:5)
+59 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:933:20
+59 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+59 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+59 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+59 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+60 verbose cwd /Users/benspears/Desktop/projects/photography/photosite
+61 error Darwin 14.3.0
+62 error argv "node" "/usr/local/bin/npm" "install" "--save" "gulp"
+63 error node v0.12.1
+64 error npm  v2.5.1
+65 error Attempt to unlock /Users/benspears/Desktop/projects/photography/photosite/node_modules/gulp, which hasn't been locked
+66 error If you need help, you may report this error at:
+66 error     <http://github.com/npm/npm/issues>
+67 verbose exit [ 1, true ]

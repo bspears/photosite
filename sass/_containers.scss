@@ -42,8 +42,9 @@ main {
 }
 
 .aboutImg {
-	width:30%;
+	width:100%;
 	float: left;
+  margin-bottom: 1em;
 }
 
 .slider {
@@ -71,6 +72,11 @@ main {
 			display: inline-block;
 		}
 	}
+}
+
+.aboutText {
+  padding: 0 1em;
+  margin: .5em;
 }
 
 .footer {
@@ -150,6 +156,8 @@ main {
 
 	.aboutImg {
 		margin: 0 2em 2em 0;
+    width:30%;
+    float: left;
 	}
 
 	.aboutText {

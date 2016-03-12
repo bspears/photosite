@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -43,7 +43,7 @@ a {
   color: inherit; }
 
 p {
-  line-height: 1.6em;
+  line-height: 2em;
   font-family: 'Hind', sans-serif; }
 
 table {
@@ -57,6 +57,10 @@ table {
   content: " ";
   display: block;
   clear: both; }
+
+@media (min-device-width: 900px) {
+  p {
+    font-size: 1em; } }
 
 .custom-grid {
   float: left;
@@ -105,8 +109,9 @@ main {
       margin: .7em 0; }
 
 .aboutImg {
-  width: 30%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 1em; }
 
 .slider {
   z-index: 2;
@@ -126,6 +131,10 @@ main {
 
 .sliderNav .sliderButtons li {
   display: inline-block; }
+
+.aboutText {
+  padding: 0 1em;
+  margin: .5em; }
 
 .footer {
   padding: 0 1%;
@@ -175,7 +184,9 @@ main {
   .contentBox {
     padding: 2%; }
   .aboutImg {
-    margin: 0 2em 2em 0; }
+    margin: 0 2em 2em 0;
+    width: 30%;
+    float: left; }
   .aboutText {
     width: 65%;
     margin-bottom: 1em; }
