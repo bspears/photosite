@@ -118,6 +118,7 @@ main {
   display: none;
   padding: 0 5%;
   position: absolute;
+  overflow: auto;
   top: 0;
   left: 0;
   bottom: 0;
@@ -125,7 +126,8 @@ main {
   .slider .photoSlide {
     position: relative; }
     .slider .photoSlide .image {
-      width: 100%; }
+      margin: 5% auto;
+      width: 70%; }
   .slider .closeButton {
     text-align: center;
     line-height: 40px;
@@ -146,10 +148,6 @@ main {
   padding: 16px; }
   .textChunk h2 {
     margin-bottom: .5em; }
-
-.aboutText {
-  padding: 0 1em;
-  margin: .5em; }
 
 .footer {
   padding: 0 1%;
@@ -194,7 +192,7 @@ main {
     font-size: 3.2em; }
   .textChunk {
     margin: 1em 0;
-    width: 35%;
+    width: 65%;
     padding: 0; }
   .contentBox {
     padding: 2%; }
@@ -203,7 +201,7 @@ main {
     width: 30%;
     float: left; }
   .aboutText {
-    width: 65%;
+    width: 100%;
     margin: 0 0 1em 0;
     padding: 0; }
   .thumbnail {

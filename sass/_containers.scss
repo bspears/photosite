@@ -52,6 +52,7 @@ main {
 	display: none;
 	padding: 0 5%;
   position: absolute;
+  overflow: auto;
   top: 0;
   left: 0;
   bottom: 0;
@@ -59,7 +60,8 @@ main {
 	.photoSlide {
 		position: relative;
     .image {
-      width: 100%;
+      margin: 5% auto;
+      width: 70%;
     }
 	}
 	.closeButton {
@@ -94,8 +96,6 @@ main {
 }
 
 .aboutText {
-  padding: 0 1em;
-  margin: .5em;
 }
 
 .footer {
@@ -165,7 +165,7 @@ main {
 
   .textChunk {
     margin: 1em 0;
-    width: 35%;
+    width: 65%;
     padding: 0;
   }
 
@@ -180,7 +180,7 @@ main {
 	}
 
 	.aboutText {
-		width: 65%;
+		width: 100%;
     margin: 0 0 1em 0;
     padding: 0;
 	}
