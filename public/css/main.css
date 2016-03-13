@@ -126,7 +126,8 @@ main {
   .slider .photoSlide {
     position: relative; }
     .slider .photoSlide .image {
-      width: 100%; }
+      width: 100%;
+      margin-top: 10%; }
   .slider .closeButton {
     text-align: center;
     line-height: 40px;
