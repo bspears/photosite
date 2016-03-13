@@ -43,7 +43,7 @@ a {
   color: inherit; }
 
 p {
-  line-height: 2em;
+  line-height: 1.5em;
   font-family: 'Hind', sans-serif; }
 
 table {
@@ -117,10 +117,15 @@ main {
   z-index: 2;
   display: none;
   padding: 0 5%;
-  margin-top: -7%; }
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #000; }
   .slider .photoSlide {
-    position: relative;
-    padding: 5% 2%; }
+    position: relative; }
+    .slider .photoSlide .image {
+      width: 100%; }
   .slider .closeButton {
     text-align: center;
     line-height: 40px;
@@ -134,10 +139,11 @@ main {
 
 .heading {
   font-size: 3em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-left: 16px; }
 
 .textChunk {
-  padding: .5em; }
+  padding: 16px; }
   .textChunk h2 {
     margin-bottom: .5em; }
 
@@ -188,7 +194,8 @@ main {
     font-size: 3.2em; }
   .textChunk {
     margin: 1em 0;
-    width: 25%; }
+    width: 35%;
+    padding: 0; }
   .contentBox {
     padding: 2%; }
   .aboutImg {
@@ -197,6 +204,7 @@ main {
     float: left; }
   .aboutText {
     width: 65%;
-    margin-bottom: 1em; }
+    margin: 0 0 1em 0;
+    padding: 0; }
   .thumbnail {
     padding: 2px; } }
