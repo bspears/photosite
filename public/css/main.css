@@ -126,8 +126,7 @@ main {
   .slider .photoSlide {
     position: relative; }
     .slider .photoSlide .image {
-      margin: 5% auto;
-      width: 70%; }
+      width: 100%; }
   .slider .closeButton {
     text-align: center;
     line-height: 40px;
@@ -181,6 +180,28 @@ main {
       left: 20px; }
       .header .nav ul li {
         margin: .3em 0; }
+  .slider {
+    z-index: 2;
+    display: none;
+    padding: 0 5%;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #000; }
+    .slider .photoSlide {
+      position: relative; }
+      .slider .photoSlide .image {
+        margin: 5% auto;
+        width: 70%; }
+    .slider .closeButton {
+      text-align: center;
+      line-height: 40px;
+      height: 40px;
+      width: 5%;
+      cursor: pointer;
+      z-index: 2; }
   main {
     padding-left: 150px;
     padding-top: 100px; }

@@ -60,8 +60,7 @@ main {
 	.photoSlide {
 		position: relative;
     .image {
-      margin: 5% auto;
-      width: 70%;
+      width: 100%;
     }
 	}
 	.closeButton {
@@ -145,6 +144,33 @@ main {
       }
 		}
 	}
+
+  .slider {
+    z-index: 2;
+    display: none;
+    padding: 0 5%;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    .photoSlide {
+      position: relative;
+      .image {
+        margin: 5% auto;
+        width: 70%;
+      }
+    }
+    .closeButton {
+      text-align: center;
+      line-height: 40px;
+      height: 40px;
+      width: 5%;
+      cursor: pointer;
+      z-index: 2;
+    }
+  }
 
 	main {
 		padding-left: 150px;
